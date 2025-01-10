@@ -18,6 +18,20 @@
     }
   </style>
 
+  <style>
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.flashing-text {
+  font-size: 24px;
+  font-weight: bold;
+  animation: flash 1s infinite;
+}
+</style>
+
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-40545479-1']);
@@ -66,7 +80,7 @@
           <p align="center">&nbsp;</p>
           <p align="center">
             <span style="font-size: 36px; font-weight: bold;">Christos Sevastopoulos</span><br>
-            <span style="font-size: 24px; font-weight: bold;">Machine Learning/Computer Vision Engineer</span><br>
+            <span class="flashing-text">Machine Learning/Computer Vision Engineer</span>
            
           </p>
 
