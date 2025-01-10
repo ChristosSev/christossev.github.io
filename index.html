@@ -16,23 +16,23 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+
+    /* Fade-in animation for the name and title */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out forwards; 
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
   </style>
- 
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-40545479-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
+
 <body>
   <div class="container">
     <table class="table" align="center" cellpadding="20">
@@ -43,166 +43,69 @@
                style="border-radius: 75%; width: 260px; height: 260px;">
 
           <!-- Icons under the profile picture -->
-         <div style="margin-top: 15px;">
-      <a href="mailto:csevasto@uic.edu" style="margin-right: 14px;">
-          <img src="Icons/646094.png" height="48" alt="Mail">
-      </a>
-      <a href="Christos-Sevastopoulos-CV.pdf" style="margin-right: 14px;">
-          <img src="Icons/5988705.png" height="64" alt="CV">
-      </a>
-      <a href="https://www.linkedin.com/in/christos-sevastopoulos/" target="_blank" style="margin-right: 14px;">
-          <img src="Icons/174857.png" height="48" alt="LinkedIn">
-      </a>
-      <a href="https://scholar.google.com/citations?user=XAzu37QAAAAJ&hl=en" target="_blank" style="margin-right: 14px;">
-          <img src="Icons/Google_Scholar_logo.svg-2.png" height="48" alt="Google Scholar">
-      </a>
-      <a href="https://github.com/ChristosSev/" target="_blank">
-          <img src="Icons/25231.png" height="48" alt="GitHub">
-      </a>
-</div>
+          <div style="margin-top: 15px;">
+            <a href="mailto:csevasto@uic.edu" style="margin-right: 14px;">
+                <img src="Icons/646094.png" height="48" alt="Mail">
+            </a>
+            <a href="Christos-Sevastopoulos-CV.pdf" style="margin-right: 14px;">
+                <img src="Icons/5988705.png" height="64" alt="CV">
+            </a>
+            <a href="https://www.linkedin.com/in/christos-sevastopoulos/" target="_blank" style="margin-right: 14px;">
+                <img src="Icons/174857.png" height="48" alt="LinkedIn">
+            </a>
+            <a href="https://scholar.google.com/citations?user=XAzu37QAAAAJ&hl=en" target="_blank" style="margin-right: 14px;">
+                <img src="Icons/Google_Scholar_logo.svg-2.png" height="48" alt="Google Scholar">
+            </a>
+            <a href="https://github.com/ChristosSev/" target="_blank">
+                <img src="Icons/25231.png" height="48" alt="GitHub">
+            </a>
+          </div>
+        </td>
 
-    
-
-</style>
-
-
-
-<td width="60%" valign="top">
-  <p align="center">&nbsp;</p>
-  <p align="center">
-    <span 
-      style="font-size: 36px; font-weight: bold; opacity: 0;" 
-      class="fade-in"
-    >
-      Christos Sevastopoulos
-    </span><br>
-    <span 
-      style="font-size: 18px; font-weight: bold; opacity: 0;" 
-      class="fade-in"
-    >
-      Machine Learning/Computer Vision Engineer
-    </span><br>
-  </p>
-</td>
-
-<style>
-  .fade-in {
-    animation: fadeIn 1s ease-in-out forwards; 
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-</style>
-
-   
-
-          <p align="justify">
-            I am a postdoctoral researcher at the <a href="https://www.uic.edu/">University of Illinois Chicago</a>, in the <a href="https://bme.uic.edu/">Richard and Loan Hill Department of Biomedical Engineering</a>. I received my PhD in Computer Engineering from <a href="https://www.uta.edu/"> the University of Texas Arlington</a>, advised by <a href="https://heracleia.uta.edu">Fillia Makedon</a>. Before this, I completed my Master's in Robotics at the <a href="http://www.bristol.ac.uk/">University of Bristol, UK</a>. I earned my Bachelor's degree in Physics at the <a href="http://www.uoa.gr/">National & Kapodistrian University of Athens</a>. Additionally, I have worked as a researcher at <a href="https://roboskel.iit.demokritos.gr">NCSR Demokritos</a> under the supervision of <a href="https://www.demokritos.gr/en/researchers/konstantopoulos/">Stasinos Konstantopoulos</a> and as a Machine Learning Intern for <a href="https://www.gn.com/">GN GROUP</a>.
+        <td width="60%" valign="top">
+          <p align="center">&nbsp;</p>
+          <p align="center">
+            <span class="fade-in" style="font-size: 36px; font-weight: bold;">
+              Christos Sevastopoulos
+            </span><br>
+            <span class="fade-in" style="font-size: 18px; font-weight: bold;">
+              Machine Learning/Computer Vision Engineer
+            </span><br>
           </p>
-
-          <p align="justify">
-            My research lies at the crossroads of <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and <strong>Robotics</strong>, with the goal of developing machine learning systems that enhance decision-making. I’m particularly fascinated by <strong>Transformer-based architectures</strong>, including models like <strong>BERT</strong>, and their synergy with <strong>multimodal data</strong>, which help agents better understand and navigate real-world environments. I’ve worked on improving scene understanding through techniques like <strong>image reconstruction</strong>, <strong>segmentation</strong>, and <strong>enhancement</strong>, using <strong>Generative AI methods</strong> such as <strong>diffusion models</strong> and <strong>GANs</strong>, along with <strong>object detection frameworks</strong> like <strong>YOLO</strong> and <strong>Faster R-CNN</strong>. Additionally, I explore how introducing <strong>noise</strong>—via <strong>adversarial attacks</strong> and <strong>diffusion processes</strong>—can enhance image quality and improve model robustness. A central interest in my work is the ongoing battle between <strong>human common sense</strong> and <strong>machine learning</strong>, and how to bridge the gap between human-like reasoning and the structured learning processes of AI to improve decision-making in complex environments.
-          </p>
-
-           <p align="justify">
-          For a more comprehensive list of my projects, check my <a href="https://github.com/ChristosSev/" target="_blank">GitHub</a> and my <a href="https://scholar.google.com/citations?user=XAzu37QAAAAJ&hl=en" target="_blank">Google Scholar</a>.
-
-          </p>
-
-          <!-- Publications Section -->
-          <h3>Some Publications</h3>
-          <div class="publication-item">
-            <div class="publication-img" style="float: left; margin-right: 20px;">
-              <img src="my_new_folder/fss_arch.png" alt="" style="width: 240px; height: 150px;">
-            </div>
-            <div class="publication-details">
-              <h4>
-                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10711840" target="_blank">
-                  Few-shot Traversability Segmentation of Indoor Robotic Navigation with Contrastive Logits Align
-                </a>
-              </h4>
-              <p>Authors: Qiyuan An, Christos Sevastopoulos, Farnaz Farahanipad, Fillia Makedon, 2024 IEEE 20th International Conference on Automation Science and Engineering (CASE) </p>
-              <p>This paper proposes a Few-Shot Learning (FSL) approach to meta-learn an existing pretrained segmentation model for an indoor traversability segmentation task. The goal is to meta-learn a segmentation model in a sense that it can adapt to a new unseen class given limited annotated examples.</p>
-            </div>
-          </div>
-
-          <div class="publication-item">
-            <div class="publication-img" style="float: left; margin-right: 20px;">
-              <img src="my_new_folder/Screenshot 2025-01-10 at 08.14.51.png" alt="" style="width: 240px; height: 150px;">
-            </div>
-            <div class="publication-details">
-              <h4>
-                <a href="https://ieeexplore.ieee.org/abstract/document/10473550" target="_blank">
-                  Learning Indoors Free-space Segmentation for a Mobile Robot from Positive Instances
-                </a>
-              </h4>
-              <p>Authors: Christos Sevastopoulos, Joey Hussain, Qiyuan An, Stasinos Konstantopoulos, Vangelis Karkaletsis, Fillia Makedon,<em> 2023 Seventh IEEE International Conference on Robotic Computing (IRC)</em></p>
-              <p>This paper proposes an indoors free-space segmentation method that associates large depth values with navigable regions. It also employs an unsupervised masking technique that, using positive instances, generates segmentation labels based on textural homogeneity and depth uniformity.</p>
-            </div>
-          </div>
-           <div class="publication-item">
-            <div class="publication-img" style="float: left; margin-right: 20px;">
-              <img src="my_new_folder/Screenshot 2025-01-10 at 08.54.39.png" alt="" style="width: 240px; height: 150px;">
-            </div>
-            <div class="publication-details">
-              <h4>
-                <a href="https://ieeexplore.ieee.org/abstract/document/10260565" target="_blank">
-                  Indoors Traversability Estimation with RGB-Laser Fusion
-                </a>
-              </h4>
-              <p>Authors: Christos Sevastopoulos, Michail Theofanidis, Aref Hebri, Stasinos Konstantopoulos, Vangelis Karkaletsis, Fillia Makedon, 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE) </p>
-              <p>This paper proposes a dual-stream, semi-supervised, attention-based approach that employs feature fusion of RGB and Laser Range Finder (LRF) modalities. Our method leverages the strength of two powerful transformer-based networks, ViT and SegFormer, along with Laser information, to adequately predict whether the scene encountered in the image is safe for a robot to traverse.</p>
-            </div>
-          </div>
-          <div class="publication-item">
-            <div class="publication-img" style="float: left; margin-right: 20px;">
-              <img src="my_new_folder/Screenshot 2025-01-10 at 09.52.12.png" alt="" style="width: 240px; height: 150px;">
-            </div>
-            <div class="publication-details">
-              <h4>
-                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9869644" target="_blank">
-                  A Survey of Traversability Estimation for Mobile Robots
-                </a>
-              </h4>
-              <p>Authors:  Christos Sevastopoulos, Stasinos Konstantopoulos, IEEE ACCESS </p>
-              <p>This work highlights the merits and limitations of all the major steps in the evolution of traversability estimation techniques, covering both non-trainable and machine-learning methods, leading up to how the nascence of Deep Learning has created an opportunity for radical improvement in traversability estimation.</p>
-            </div>
-          </div>
-
-          <!-- Skills Section -->
-<h3>Skills</h3>
-<div class="skills-list">
-  <ul>
-    <li><strong>Programming Languages:</strong> Python, C++, JavaScript, MATLAB</li>
-    <li><strong>Machine Learning & AI Frameworks:</strong>  PyTorch, Keras, Scikit-learn, OpenCV</li>
-    <li><strong>Large Language Models (LLM):</strong>  Hands-on experience in fine-tuning LLMs (GPT, BERT) for domain-specific tasks.</li>
-    <li><strong>Computer Vision:</strong> Strong background in image processing, segmentation, and object detection. Proficient in using DL frameworks (e.g., PyTorch, TensorFlow, Keras) to implement and deploy vision-based models.</li>
-    <li><strong>Robotics:</strong> Robot Operating System (ROS),  Navigation</li>
-    <li><strong>Deep Learning:</strong> Convolutional Neural Networks (CNNs), Transformers, GANs, Diffusion Models</li>
-    <li><strong>Data Science & Analysis:</strong> Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebooks</li>
-    <li><strong>Software Development:</strong> Git, Docker, Linux, AWS Sagemaker</li>
-    <li><strong>Tools & Platforms:</strong>  PyCharm, Unity, Visual Studio Code, Jupyter Lab, Kubernetes</li>
-  </ul>
-</div>
-
-
-
-          
         </td>
       </tr>
     </table>
+
+    <p align="justify">
+      I am a postdoctoral researcher at the <a href="https://www.uic.edu/">University of Illinois Chicago</a>, in the <a href="https://bme.uic.edu/">Richard and Loan Hill Department of Biomedical Engineering</a>. I received my PhD in Computer Engineering from <a href="https://www.uta.edu/"> the University of Texas Arlington</a>, advised by <a href="https://heracleia.uta.edu">Fillia Makedon</a>. Before this, I completed my Master's in Robotics at the <a href="http://www.bristol.ac.uk/">University of Bristol, UK</a>. I earned my Bachelor's degree in Physics at the <a href="http://www.uoa.gr/">National & Kapodistrian University of Athens</a>. Additionally, I have worked as a researcher at <a href="https://roboskel.iit.demokritos.gr">NCSR Demokritos</a> under the supervision of <a href="https://www.demokritos.gr/en/researchers/konstantopoulos/">Stasinos Konstantopoulos</a> and as a Machine Learning Intern for <a href="https://www.gn.com/">GN GROUP</a>.
+    </p>
+
+    <p align="justify">
+      My research lies at the crossroads of <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and <strong>Robotics</strong>, with the goal of developing machine learning systems that enhance decision-making. I’m particularly fascinated by <strong>Transformer-based architectures</strong>, including models like <strong>BERT</strong>, and their synergy with <strong>multimodal data</strong>, which help agents better understand and navigate real-world environments. I’ve worked on improving scene understanding through techniques like <strong>image reconstruction</strong>, <strong>segmentation</strong>, and <strong>enhancement</strong>, using <strong>Generative AI methods</strong> such as <strong>diffusion models</strong> and <strong>GANs</strong>, along with <strong>object detection frameworks</strong> like <strong>YOLO</strong> and <strong>Faster R-CNN</strong>. Additionally, I explore how introducing <strong>noise</strong>—via <strong>adversarial attacks</strong> and <strong>diffusion processes</strong>—can enhance image quality and improve model robustness. A central interest in my work is the ongoing battle between <strong>human common sense</strong> and <strong>machine learning</strong>, and how to bridge the gap between human-like reasoning and the structured learning processes of AI to improve decision-making in complex environments.
+    </p>
+
+    <p align="justify">
+      For a more comprehensive list of my projects, check my <a href="https://github.com/ChristosSev/" target="_blank">GitHub</a> and my <a href="https://scholar.google.com/citations?user=XAzu37QAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+    </p>
+
+    <!-- Publications Section -->
+    <h3>Some Publications</h3>
+    <div class="publication-item">
+      <div class="publication-img" style="float: left; margin-right: 20px;">
+        <img src="my_new_folder/fss_arch.png" alt="" style="width: 240px; height: 150px;">
+      </div>
+      <div class="publication-details">
+        <h4>
+          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10711840" target="_blank">
+            Few-shot Traversability Segmentation of Indoor Robotic Navigation with Contrastive Logits Align
+          </a>
+        </h4>
+        <p>Authors: Qiyuan An, Christos Sevastopoulos, Farnaz Farahanipad, Fillia Makedon, 2024 IEEE 20th International Conference on Automation Science and Engineering (CASE) </p>
+        <p>This paper proposes a Few-Shot Learning (FSL) approach to meta-learn an existing pretrained segmentation model for an indoor traversability segmentation task. The goal is to meta-learn a segmentation model in a sense that it can adapt to a new unseen class given limited annotated examples.</p>
+      </div>
+    </div>
+
+    <!-- Additional Publications can be added here -->
   </div>
 </body>
-
-   <footer>
-        <div class="container text-center py-4">
-            <p>&copy; 2025 Christos Sevastopoulos. All rights reserved.</p>
-        </div>
-    </footer>
 </html>
